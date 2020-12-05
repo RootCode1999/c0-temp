@@ -14,7 +14,6 @@ public class Main {
         while ((s = raf.readLine()) != null && unknow_flag == 1) {
             System.out.println(s);
         }
-        System.exit(1);
         raf.close();
         fis.close();
     }
