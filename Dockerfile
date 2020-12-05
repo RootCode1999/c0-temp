@@ -1,4 +1,4 @@
 FROM openjdk:12
-WORKDIR /BUAACompiler-Project1-Java/
+WORKDIR /c0-temp/
 COPY ./* ./
 RUN javac Main.java
